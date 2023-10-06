@@ -1,0 +1,376 @@
+body{
+  background-color: #e6e6e6;
+}
+
+.container{
+  background-color: white;
+  padding: 0%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bg-black {
+  background-color: #022433;
+  color: white;
+  padding-top: 30px;
+}
+
+.top-nav ul.navbar-nav > li > a:active {
+  color: tomato;
+}
+
+.top-nav ul.navbar-nav > li.home-link > a:active,
+.top-nav ul.navbar-nav > li.home-link > a:visited {
+    color: tomato;
+}
+
+h5 {
+    color: tomato;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    color: tomato;
+    margin-bottom: 15px;
+}
+
+.mychangecolor{
+  color: #7ea4d6;
+}
+
+h4 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    line-height: 0.8;
+    font-size: 18px;
+}
+
+h6 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.card-title {
+    font-size: 20px;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 20%;
+  }
+  
+  
+  .row {
+    margin: 0 -5px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+ 
+  .card {
+    text-align: center;
+  }
+  
+ 
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+.column2 {
+  float: left;
+  width: 33%;
+  padding: 0 10px;
+}
+
+.row2 {
+  margin: 0 -5px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.card2 {
+  text-align: center;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column2 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+
+.column3 {
+  float: left;
+  height: 170px;
+  width: 25%;
+  /* padding: 0 10px; */
+  padding: 0 10px;
+}
+
+.row3 {
+  margin: 0 -5px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+
+.row3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card3 {
+  align-items: center;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column3 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+ .column4 {
+  float: left;
+  width: 33%;
+  padding: 0 10px;
+}
+
+
+.row4 {
+  margin: 0 -5px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+.row4:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.card4 {
+  text-align: center;
+  border: 2px solid #f5f3f5;
+  padding: 20px;
+  border-bottom: 5px solid #7ea4d6;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column4 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.text-dark{
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.text-primary{
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.text-muted{
+  margin-bottom: 20px;
+}
+
+
+form {
+  width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+input[name="first_name"], input[name="last_name"] {
+  display: inline-block;
+  width: 45%;
+}
+
+
+input[name="first_name"]{
+  margin-right: 44px;
+}
+
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+
+input[type="submit"] {
+  background-color: #0bbeef;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.check-row{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 120px;
+}
+
+input[type="checkbox"], input[name="subscribe_to_newsletter"]{
+  display: inline-block;
+  width: 20px;
+}
+
+.submit-btn{
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+
+.bg-gray {
+  background-color: #032630; 
+  padding: 20px; 
+  text-align: center; 
+  color: #aeb4b8;
+}
+
+.card-body5 p {
+  text-align: start;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+
+
+.column5 {
+  float: left;
+  height: 170px;
+  width: 20%;
+  padding-top: 30px;
+}
+
+
+
+.row5 {
+  margin: 0 -5px;
+  padding-left: 50px;
+}
+
+
+.row5:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.card5 {
+  align-items: center;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column5 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.bi-telephone-fill{
+  color: red;
+}
+
+.phone{
+  display: flex;
+  margin-left: 25px;
+}
+
+.phone-number{
+  display: flex;
+  text-align: center;
+}
+
+.phone-number i {
+  font-size: 15px;
+  margin-right: 10px;
+  margin-top: 7px;
+}
+
+.fa-map-marker{
+  color: red;
+}
+
+.address{
+  margin-left: 20px;
+}
+
+.address-icon{
+  display: flex;
+  text-align: center;
+}
+
+.address-icon i {
+  font-size: 15px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: black;
+  color: #aeb4b8;
+}
+footer p {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 15px;
+}
